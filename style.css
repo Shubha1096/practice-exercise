@@ -1,0 +1,27 @@
+h1{
+
+    text-align: center;
+    background-color: aqua;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: blueviolet;
+}
+.birthdate{
+
+    text-align: center;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    font-size: larger;
+}
+#luckynum{
+
+text-align: center;
+}
+.inline{
+
+    display: inline;
+}
+.inputField{
+
+    text-align: right;
+}
