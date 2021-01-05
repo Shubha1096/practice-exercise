@@ -20,4 +20,9 @@ h1{
     text-align: center;
     
 }
+#errorField{
+
+    font-size: small;
+    color: red;
+}
 
