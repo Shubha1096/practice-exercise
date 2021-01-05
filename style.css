@@ -9,19 +9,15 @@ h1{
 .birthdate{
 
     text-align: center;
-    padding-right: 1rem;
-    padding-left: 1rem;
-    font-size: larger;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    font-size: x-large;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
 }
-#luckynum{
+.output-btn{
 
-text-align: center;
+    text-align: center;
+    
 }
-.inline{
 
-    display: inline;
-}
-.inputField{
-
-    text-align: right;
-}
