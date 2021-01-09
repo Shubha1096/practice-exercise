@@ -3,7 +3,20 @@ var inputDate = document.querySelector("#inputField");
 var outputDiv = document.querySelector("#result");
 var errorMessage = document.querySelector("#errorField");
 
+document.getElementById("birthdate").style.visibility = "hidden";
+
+function inputDateChangeHandler(){
+    var birthDate = inputDate.value;
+        if (birthDate==="undefined"){
+                document.getElementById("birthdate").style.visibility = "hidden";
+
+        }else{
+            document.getElementById("birthdate").style.visibility = "visible";
+        }
+}
+
 function changeHandler() {
+    document.getElementById("inputField").disabled = true;
     var sum1
     var birthDate = inputDate.value;
     var array = birthDate.split("-");
@@ -25,13 +38,8 @@ function changeHandler() {
             var comment2 = "Your lucky number is not divisible by sum of all the digits of your birthdate"
             outputDiv.innerText = comment2;
         }
-    } else if (sum1 === undefined){
-        var comment3 = "*Please input correct DOB"
-        errorMessage.innerText = comment3;
-    } else{
-        var comment4 = "Please input correct number"
-        errorMessage.innerText = comment4;
     }
 }
 
 inputNum.addEventListener("change", changeHandler); 
+inputDate.addEventListener("change", inputDateChangeHandler); 

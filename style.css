@@ -25,4 +25,18 @@ h1{
     font-size: small;
     color: red;
 }
+#birthdate{
+
+    text-align: center;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    font-size: x-large;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+}
+#result{
+
+    font-size: larger;
+    color: crimson;
+}
 
